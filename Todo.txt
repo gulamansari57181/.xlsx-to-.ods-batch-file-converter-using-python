@@ -1,0 +1,21 @@
+System Requirement : a) Java -> 1.8 or higher
+                     b) Set JAVA_HOME path to JDk directory in your environment variable path
+                     c) Python 3.5 or higher
+Step 1 : Create delete.py file and import required libraries i.e. :
+1) import  jpype     
+2)import  asposecells  
+3)import glob,os,re
+
+Step2: Implement convert.py script
+
+Step 3: Because we are using asposecells api it will convert all .xlsx files to .ods but it will add one sheet on each .xlsx as copyright sheet.
+
+Step 4 : In order to remove that extra sheet implement delete.py
+
+Step 5 : Import ezodf library to delete that extra sheet.
+
+******************************************************************************
+Note :
+       input : It is a directory in which all .xlsx files are present
+       output : It is a directory in which we will get are required .ods file
+********************************************************************************
